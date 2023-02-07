@@ -3,17 +3,17 @@ import Image from "next/image"
 
 const skills = [
   { skill: "HTML & CSS" },
-  { skill: "Bootstrap" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "JQuery" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Vue.js" },
   { skill: "Node.js" },
   { skill: "SQL" },
   { skill: "MongoDB" },
+  { skill: "TypeScript" },
+  { skill: "JQuery" },
   { skill: "Tailwind CSS" },
+  { skill: "Bootstrap" },
   { skill: "Git" },
   {skill: "Sass"},
   { skill: "Figma" },
@@ -41,19 +41,19 @@ const AboutSection = () => {
               <span className="font-bold text-teal-500">{" driven"}</span> software engineer
               based in Kigali, Rwanda.
             </p>
-            <br />
-            <p>
+            {/* <br /> */}
+            {/* <p>
               I graduated from California State University, Northridge in 2019
               with a BS in Computer Engineering and have been working in the
               field ever since.
-            </p>
-            <br />
-            <p>
+            </p> */}
+            {/* <br /> */}
+            {/* <p>
               I have a wide range of hobbies and passions that keep me busy.
               From reading, playing sports, traveling, to making YouTube videos,
               I am always seeking new experiences and love to keep myself
               engaged and learning new things.
-            </p>
+            </p> */}
             <br />
             <p>
               I believe that you should{" "}
@@ -80,13 +80,13 @@ const AboutSection = () => {
                 )
               })}
             </div>
-            <Image
+            {/* <Image
               src="/hero-image.png"
               alt=""
               width={325}
               height={325}
               className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0"
-            />
+            /> */}
           </div>
         </div>
       </div>

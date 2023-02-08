@@ -11,15 +11,16 @@ const Footer = () => {
     <footer className="mx-auto max-w-3xl px- sm:px-6 md:max-w-5xl ">
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
-        <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Arsene Ngenzi<a href="/" className="hover:underline"></a>
+        <div className="flex-col flex md:flex-row items-center justify-center space-x-1 text-teal-600">
+          <a href="mailto:arsenengenzi@gmail.com"> arsenengenzi@gmail.com</a>
+          <a href="tel:+250788654348" className="hover:underline md:pl-2">(+250) 788 654 348</a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://github.com/ArseneNgenzi" rel="noreferrer" target="_blank"> 
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
-            />Github
+            />
           </a>
           {/* <a
             href="https://twitter.com/hqasmei"

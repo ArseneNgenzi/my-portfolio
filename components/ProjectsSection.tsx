@@ -6,19 +6,45 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Rwandapedia",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "RwandaPedia is a web app created to deeply detail the history of Rwanda.",
+    image: "/rwandapedia.jfif",
+    github: "#",
+    link: "https://rwandapedia.rw/",
+    stack: 'React - Redux - Tailwind CSS'
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Murambi HCC",
+    description: "MURAMBI HCC is a website created for Murambi Honey in partnership with SERUKA.",
+    image: "/murambi.png",
+    github: "https://github.com/ArseneNgenzi/murambiHCC",
+    link: "https://murambi-hcc.netlify.app/",
+    stack: 'JQuery - Bootstrap - HTML - CSS'
+  },
+  {
+    name: "Housing Protector",
+    description: "Housing Protector is a website created for a Rwandan company, working from France called housing protector",
+    image: "/murambi.png",
+    github: "https://github.com/ArseneNgenzi/murambiHCC",
+    link: "https://murambi-hcc.netlify.app/",
+    stack: 'JQuery - Bootstrap - HTML - CSS'
+  },
+  {
+    name: "Murambi HCC",
+    description: "MURAMBI HCC is a website created for Murambi Honey in partnership with SERUKA.",
+    image: "/murambi.png",
+    github: "https://github.com/ArseneNgenzi/murambiHCC",
+    link: "https://murambi-hcc.netlify.app/",
+    stack: 'JQuery - Bootstrap - HTML - CSS'
+  },
+  {
+    name: "Murambi HCC",
+    description: "MURAMBI HCC is a website created for Murambi Honey in partnership with SERUKA.",
+    image: "/murambi.png",
+    github: "https://github.com/ArseneNgenzi/murambiHCC",
+    link: "https://murambi-hcc.netlify.app/",
+    stack: 'JQuery - Bootstrap - HTML - CSS'
   },
   {
     name: "Kator Family Photos",
@@ -57,9 +83,10 @@ const ProjectsSection = () => {
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                    <p className="text-xl leading-7 mb-2 text-neutral-600 dark:text-neutral-400">
                       {project.description}
                     </p>
+                    <p className="text-teal-600 pb-4"> {project.stack}</p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub

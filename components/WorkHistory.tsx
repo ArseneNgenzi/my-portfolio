@@ -50,6 +50,10 @@ export interface WorkProps {
 
   return (
     <div>
+        <h1 className="mt-0 mb-10 text-center font-bold text-4xl">
+        Work History
+        <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
+      </h1>
         {jobs.map((job,id) => {
             // console.log('JOB: ', job)
             return (

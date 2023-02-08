@@ -12,9 +12,9 @@ const HeroSection = () => {
           <Image
             src="/arsene.png"
             alt=""
-            width={425}
-            height={425}
-            className="rounded-full shadow-2xl"
+            width={400}
+            height={400}
+            className="md:rounded-full shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">

@@ -9,9 +9,9 @@ const SingleWork = (work: WorkProps) => {
 		<div className="border-solid border-sky-500 flex flex-col ">
             
 			<div className="">
-				<div className="md:flex font-black md:text-xl text-teal-600 pt-4 uppercase">
-					<p>{work.role},</p> &nbsp;
-					<p>{work.company},</p>&nbsp;
+				<div className="md:flex font-black md:text-xl text-teal-600 pt-4 ">
+					<p className="md:pr-2 uppercase">{work.role},</p> 
+					<p className="md:pr-2">{work.company},</p>
 					<p>{work.jobLocation}.</p>
 				</div>
                 <p className="text-xs text-gray-400 pt-1">{work.jobDate}</p>

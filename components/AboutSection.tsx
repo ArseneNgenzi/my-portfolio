@@ -65,6 +65,11 @@ const AboutSection = () => {
             </p> */}
 							<br />
 							<p>
+								I am a result-oriented and enthusiastic Software Engineer and who is proficient in both Frontend and Backend development, with strong communication skills and great problem solving skills. I strongly understand how to deal with clients and what it means to deliver high-quality products on a timely schedule. I am willing to utilize all my skills and experience to add immediate value to my employers' business. 
+
+							</p>
+							<br/>
+							<p>
 								I believe that you should{" "}
 								<span className="font-bold text-teal-500">
 									never stop growing

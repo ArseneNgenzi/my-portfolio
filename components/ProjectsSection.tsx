@@ -8,7 +8,7 @@ const projects = [
 	{
 		name: "Rwandapedia",
 		description:
-			"RwandaPedia is a web app created to deeply detail the history of Rwanda.",
+			"Rwandapedia is a free, digital encyclopedic repository created for the world to learn about Rwanda and its transformation journey.",
 		image: "/rwandapedia.jfif",
 		github: "#",
 		link: "https://rwandapedia.rw/",
@@ -17,7 +17,7 @@ const projects = [
 	{
 		name: "Housing Protector",
 		description:
-			"Housing Protector is a website created for a Rwandan company, working from France called housing protector. It also has an admin dashboard made with React, SQL, and Node.js",
+			"Housing Protector is an interactive website for a Rwandan based construction company with French roots. The site admin’s dashboard was coded using React, SQL, and Node.js  ",
 		image: "/housing.png",
 		github: "https://github.com/ArseneNgenzi/housingprotector1",
 		link: "https://housingprotector.rw/",
@@ -26,7 +26,7 @@ const projects = [
 	{
 		name: "Murambi HCC",
 		description:
-			"MURAMBI HCC is a website created for Murambi Honey in partnership with SERUKA.",
+			"MURAMBI HCC	MURAMBI HCC is a website created for Murambi Honey in partnership with SERUKA, and NGO that supplies modern bee hives to women beekeepers  .",
 		image: "/murambi.png",
 		github: "https://github.com/ArseneNgenzi/murambiHCC",
 		link: "https://murambi-hcc.netlify.app/",
@@ -35,7 +35,7 @@ const projects = [
 	{
 		name: "Covid-19 Tracker",
 		description:
-			"This is a covid-19 Tracker with updated live data, created with React.js and Material UI",
+			"This is a live COVID-19 Tracker that updates new COVID-19 cases  created with React.js and Material UI",
 		image: "/covidTracker.png",
 		github: "https://github.com/ArseneNgenzi/real-time-covid19-tracker",
 		link: "https://arsene-covid-tracker-app.netlify.app/",

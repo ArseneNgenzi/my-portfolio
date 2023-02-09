@@ -59,7 +59,7 @@ const AboutSection = () => {
 								strongly understand how to deal with clients and what it means
 								to deliver high-quality products on a timely schedule. I am
 								willing to utilize all my skills and experience to add immediate
-								value to my employers' business.
+								value to my employers{`'`} business.
 							</p>
 							<br />
 							<p>

@@ -20,10 +20,10 @@ export interface WorkProps {
             jobLocation: ' Remote',
             jobDate: 'OCTOBER 2022 - PRESENT',
             jobTasks: [
-                'Continuously monitoring software systems.',
-                'Take care of UFT-related tickets.',
-                'Identifying network issues and resolving them.',
-                'Handling UFT Java add-ins, .NET add-ins, Web add-ins, and ALM integration with UFT.'
+                'Continuously monitored and troubleshooted Micro Focus software systems.',
+                'Managed and engineered UFT- related Tickets',
+                'Identify and resolve MicroFocus product network issues',
+                'Handled UFT Java add-ins, .NET add-ins, Web add-ins, and ALM integration with UFT.'
             ]
         },
         {
@@ -32,16 +32,17 @@ export interface WorkProps {
             jobLocation: ' Rwanda',
             jobDate: 'SEPTEMBER 2020 - SEPTEMBER 2022',
             jobTasks: [
-                'Contributed to various projects using Node.js, React.js,, and Vue.js',
+                'Contributed to various projects using Node.js, React.js, and Vue.js',
                 'Worked on https://rwandapedia.rw',
-                'Worked with UX/UI designers to design and build user interfaces and iterations based on user feedback.',
+                'Liaise with UX/UI designers to design and build user interfaces and iterations based on user feedback.',
                 'Specified requirements and supported test case development.',
                 'Worked on the back-end of an e-wallet application (using NodeJS/Express.JS) with payment integrations such as PayPal and Stripe.',
                 'Utilized crucial design software skills to assist with projects.',
                 'Implemented and updated application modules under the direction of Senior Software Developers.',
                 'Effectively coded software changes and alterations based on specific design specifications.',
-                'Used advanced software programs and helped to maintain strong communication among colleagues.',
-                'Tested and accurately configured software and maintained high-functioning hardware.',
+                'Implemented reporting habits that helped maintaining strong communication habits among colleagues',
+                'Tested and accurately configured software', 
+                'Maintained high-functioning hardware.',
                 
             ]
         },

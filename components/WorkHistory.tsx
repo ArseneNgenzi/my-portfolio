@@ -61,6 +61,9 @@ export interface WorkProps {
                 <>
                 <SingleWork work={job} key={id} />
                     {/* <h1 key={id} style={{color:'white'}}>{job.company}</h1> */}
+                <div className='bg-teal- flex justify-center pt-6'>
+                    <a href="https://resume.io/r/IEF94vgYO" target={'_blank'} className='text-teal-500 underline capitalize hover:no-underline'>Click here to see resume</a>
+                </div>
                 </>
             )
         }

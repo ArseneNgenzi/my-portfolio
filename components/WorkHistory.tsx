@@ -59,7 +59,7 @@ export interface WorkProps {
             // console.log('JOB: ', job)
             return (
                 <>
-                <SingleWork key={id} {...job}/>
+                <SingleWork work={job} key={id} />
                     {/* <h1 key={id} style={{color:'white'}}>{job.company}</h1> */}
                 </>
             )

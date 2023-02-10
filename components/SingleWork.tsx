@@ -1,11 +1,18 @@
 import React from "react";
+import { NextPage } from "next";
 
 import { WorkProps } from "./WorkHistory";
 
-const SingleWork = (work: WorkProps) => {
-	// console.log(work)
+interface Props {
+	work: WorkProps
+}
+
+const SingleWork: NextPage<Props> = ( props) => {
+	const {work} = props
+	// console.log('haha', work)
 
 	return (
+		// <h1>Hello Single Work</h1>
 		<div className="border-solid border-sky-500 flex flex-col ">
             
 			<div className="">

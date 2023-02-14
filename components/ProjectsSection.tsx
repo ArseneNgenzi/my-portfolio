@@ -12,7 +12,7 @@ const projects = [
 		image: "/rwandapedia.jfif",
 		github: "#",
 		link: "https://rwandapedia.rw/",
-		stack: "React - Redux - Tailwind CSS",
+		stack: "React - Redux - Tailwind CSS - API Manipulation",
 	},
 	{
 		name: "Housing Protector",
@@ -22,6 +22,15 @@ const projects = [
 		github: "https://github.com/ArseneNgenzi/housingprotector1",
 		link: "https://housingprotector.rw/",
 		stack: "React - Node.js - SQL - Bootstrap - HTML - CSS",
+	},
+	{
+		name: "Airbnb Clone",
+		description:
+			"Housing Protector is an interactive website for a Rwandan based construction company with French roots. The site admin’s dashboard was coded using React, SQL, and Node.js  ",
+		image: "/airbnb.png",
+		github: "https://github.com/ArseneNgenzi/airbnbclone",
+		link: "https://arsene-airbnb.netlify.app/",
+		stack: "Next.js - Tailwind CSS - API Manipulation",
 	},
 	{
 		name: "Murambi HCC",
@@ -39,7 +48,7 @@ const projects = [
 		image: "/covidTracker.png",
 		github: "https://github.com/ArseneNgenzi/real-time-covid19-tracker",
 		link: "https://arsene-covid-tracker-app.netlify.app/",
-		stack: "React - MaterialUI - HTML - CSS",
+		stack: "React - MaterialUI - HTML - API Manipulation",
 	},
 	{
 		name: "Movie Searcher",
@@ -48,7 +57,7 @@ const projects = [
 		image: "/movies.png",
 		github: "https://github.com/ArseneNgenzi/react-movie-app",
 		link: "https://arsene-movie-app.netlify.app/",
-		stack: "React - Tailwind CSS - HTML - CSS",
+		stack: "React - Tailwind CSS - API Manipulation",
 	},
 	{
 		name: "Weather Tracker",
@@ -57,7 +66,7 @@ const projects = [
 		image: "/weather.png",
 		github: "https://github.com/ArseneNgenzi/react-weather-app",
 		link: "https://arsene-weather-app.netlify.app/",
-		stack: "React - Bootstrap - HTML - CSS",
+		stack: "React - Bootstrap - HTML - CSS - API Manipulation",
 	},
   {
 		name: "Kator Family Photos",

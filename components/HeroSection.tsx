@@ -10,11 +10,11 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/arsene.png"
+            src="/arsene2.png"
             alt=""
             width={400}
             height={400}
-            className="md:rounded-full shadow-2xl"
+            className=""
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
@@ -25,7 +25,7 @@ const HeroSection = () => {
               Software Engineer{" "}
             </span>
             based in Kigali, Rwanda. Working towards creating software that
-            makes life easier and more meaningful.
+            makes life easier and more meaningful for everybody.
           </p>
           <Link
             to="projects"

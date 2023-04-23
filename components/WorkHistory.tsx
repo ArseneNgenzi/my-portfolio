@@ -27,6 +27,19 @@ export interface WorkProps {
             ]
         },
         {
+            company: ' TEK EXPERTS',
+            role: 'Technical Support Engineer',
+            jobLocation: ' Rwanda',
+            jobDate: 'OCTOBER 2022 - PRESENT',
+            jobTasks: [
+                'Diagnosing and troubleshooting errors and offering solutions to clients',
+                'Testing and evaluating new products or features to provide feedback to product development teams.',
+                'Collaborating with other team members to resolve complex technical issues.',
+                'Maintaining and updating technical documentation and user manuals.',
+                
+            ]
+        },
+        {
             company: ' TRANSAX Ltd',
             role: 'Software Engineer',
             jobLocation: ' Rwanda',
@@ -46,6 +59,19 @@ export interface WorkProps {
                 
             ]
         },
+        {
+            company: ' TRANSAX Ltd',
+            role: 'Software Engineer Intern',
+            jobLocation: ' Rwanda',
+            jobDate: 'JANUARY 2020 - JUNE 2020',
+            jobTasks: [
+                'Worked on a project called "ANDIKAHO", which had the purpose of helping designers and artists sell any item using their own brands online.',
+                'Helped the team in designing and implementing internal software programs',
+                'Contributed to identifying areas for modification in existing programs and subsequently developed these modifications.',
+                
+            ]
+        },
+        
 
     ]
 

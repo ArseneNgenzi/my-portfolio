@@ -14,6 +14,15 @@ const projects = [
 		link: "https://rwandapedia.rw/",
 		stack: "React - Redux - Tailwind CSS - API Manipulation",
 	},
+	{   
+		name: "Angular WebStore",
+		description:
+			"Rwandapedia is a free, digital encyclopedic repository created for the world to learn about Rwanda and its transformation journey.",
+		image: "/AngularNodeWebstore1.png",
+		github: "https://github.com/ArseneNgenzi/angular-node-webstore",
+		link: "https://arsene-webstore.netlify.app/home", 
+		stack: "Angular.js - AngularMaterial - Node.js - Tailwind CSS - Stripe - API Manipulation",
+	},
 	{
 		name: "Housing Protector",
 		description:

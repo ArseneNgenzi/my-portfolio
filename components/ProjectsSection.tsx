@@ -17,7 +17,7 @@ const projects = [
 	{   
 		name: "Angular WebStore",
 		description:
-			"Rwandapedia is a free, digital encyclopedic repository created for the world to learn about Rwanda and its transformation journey.",
+			"This is a personal project I created to showcase my Angular.js skills on my portfolio. Get the app from Github, install dependencies in the 'store' and 'server' directories, the run 'ng serve' and 'node server.js' in those directories respectively to enable Stripe payments.",
 		image: "/AngularNodeWebstore1.png",
 		github: "https://github.com/ArseneNgenzi/angular-node-webstore",
 		link: "https://arsene-webstore.netlify.app/home", 

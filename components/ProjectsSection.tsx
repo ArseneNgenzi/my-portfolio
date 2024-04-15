@@ -14,14 +14,33 @@ const projects = [
 		link: "https://rwandapedia.rw/",
 		stack: "React - Redux - Tailwind CSS - API Manipulation",
 	},
-	{   
+	{
+		name: "Social Registry - Rwanda Government",
+		description:
+			"the social registry is a system that bolstered the delivery of various government programs, including cash transfers, social services, and other livelihood programs.",
+			image: "/sris.png",
+		github: "#",
+		link: "https://sris.minaloc.gov.rw/auth/login",
+		stack: "Angular - Tailwind CSS - API Manipulation",
+	},
+	{
+		name: "Andikaho",
+		description:
+			"Andikaho is the rwandan one and only community for custom fashion printing and fashion designers to create and shop seamlessly",
+		image: "/andikaho.png",
+		github: "#",
+		link: "https://github.com/ArseneNgenzi/andikaho-ui",
+		stack: "NextJs - Tailwind CSS - API Manipulation",
+	},
+	{
 		name: "Angular WebStore",
 		description:
 			"This is a personal project I created to showcase my Angular.js skills on my portfolio. Get the app from Github, install dependencies in the 'store' and 'server' directories, the run 'ng serve' and 'node server.js' in those directories respectively to enable Stripe payments.",
 		image: "/AngularNodeWebstore1.png",
 		github: "https://github.com/ArseneNgenzi/angular-node-webstore",
-		link: "https://arsene-webstore.netlify.app/home", 
-		stack: "Angular.js - AngularMaterial - Node.js - Tailwind CSS - Stripe - API Manipulation",
+		link: "https://arsene-webstore.netlify.app/home",
+		stack:
+			"Angular.js - AngularMaterial - Node.js - Tailwind CSS - Stripe - API Manipulation",
 	},
 	{
 		name: "Housing Protector",
@@ -33,7 +52,7 @@ const projects = [
 		stack: "React - Node.js - SQL - Bootstrap - HTML - CSS",
 	},
 	{
-		name: "Airbnb Clone",
+		name: "Airbnb Clone UI",
 		description:
 			"Housing Protector is an interactive website for a Rwandan based construction company with French roots. The site admin’s dashboard was coded using React, SQL, and Node.js  ",
 		image: "/airbnb.png",
@@ -76,15 +95,6 @@ const projects = [
 		github: "https://github.com/ArseneNgenzi/react-weather-app",
 		link: "https://arsene-weather-app.netlify.app/",
 		stack: "React - Bootstrap - HTML - CSS - API Manipulation",
-	},
-  {
-		name: "Kator Family Photos",
-		description:
-			"Kator Family Photos is the best photos and video digitization service in the world.",
-		image: "/familyphotos.png",
-		github: "https://katorfamilyphotos.com/",
-		link: "https://katorfamilyphotos.com/",
-		stack: "React - Bootstrap - HTML - CSS",
 	},
 ];
 

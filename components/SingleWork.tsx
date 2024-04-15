@@ -16,7 +16,7 @@ const SingleWork: NextPage<Props> = ( props) => {
 		<div className="border-solid border-sky-500 flex flex-col ">
             
 			<div className="">
-				<div className="md:flex font-black md:text-xl text-teal-600 pt-4 ">
+				<div className="md:flex font-black md:text-xl text-teal-600 pt-4 "> 
 					<p className="md:pr-2 uppercase">{work.role},</p> 
 					<p className="md:pr-2">{work.company},</p>
 					<p>{work.jobLocation}.</p>

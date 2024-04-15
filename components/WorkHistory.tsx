@@ -15,22 +15,45 @@ export interface WorkProps {
     const jobs = [
         
         {
-            company: ' MICRO FOCUS',
+            company: ' Q-LABS', 
+            role: 'Frontend Engineer consultant',
+            jobLocation: ' Remote',
+            jobDate: 'JULY 2023 - PRESENT',
+            jobTasks: [
+                'Developed custom software solutions for customers.',
+                'Improved the quality of the UI/UX, resulting in an increased end-user satisfaction.',
+                'Used best practices, industry trends, and technology to implement efficient and effective web applications.'
+            ]
+        },
+        {
+            company: ' Eccellenza Technologies Ltd', 
+            role: 'Frontend Developer',
+            jobLocation: ' Remote',
+            jobDate: 'JULY 2023 - PRESENT',
+            jobTasks: [
+                'Developed and maintained features on Social Registry IS using Angular.',
+                'Participated in code reviews, identified and fixed bugs, and maintained a clean and organized codebase.',
+                'Actively contributed to Agile development sprints, ensuring the delivery of high-quality software products on schedule.',
+                'Designed and implemented responsive user interfaces, improving the overall user experience.'
+            ]
+        },
+        {
+            company: ' OPENTEXT', 
             role: 'Software Support Engineer',
             jobLocation: ' Remote',
-            jobDate: 'OCTOBER 2022 - PRESENT',
+            jobDate: 'OCTOBER 2022 - JUNE 2023',
             jobTasks: [
                 'Continuously monitored and troubleshooted Micro Focus software systems.',
                 'Managed and engineered UFT- related Tickets',
-                'Identify and resolve MicroFocus product network issues',
+                `Identify and resolve OpenText's product network issues`,
                 'Handled UFT Java add-ins, .NET add-ins, Web add-ins, and ALM integration with UFT.'
             ]
         },
         {
             company: ' TEK EXPERTS',
-            role: 'Technical Support Engineer',
-            jobLocation: ' Rwanda',
-            jobDate: 'OCTOBER 2022 - PRESENT',
+            role: 'Software Support Engineer',
+            jobLocation: ' On site',
+            jobDate: 'OCTOBER 2022 - JUNE 2023',
             jobTasks: [
                 'Diagnosing and troubleshooting errors and offering solutions to clients',
                 'Testing and evaluating new products or features to provide feedback to product development teams.',
@@ -42,27 +65,25 @@ export interface WorkProps {
         {
             company: ' TRANSAX Ltd',
             role: 'Software Engineer',
-            jobLocation: ' Rwanda',
+            jobLocation: ' On site',
             jobDate: 'SEPTEMBER 2020 - SEPTEMBER 2022',
             jobTasks: [
                 'Contributed to various projects using Node.js, React.js, and Vue.js',
                 'Worked on https://rwandapedia.rw',
                 'Liaise with UX/UI designers to design and build user interfaces and iterations based on user feedback.',
                 'Specified requirements and supported test case development.',
-                'Worked on the back-end of an e-wallet application (using NodeJS/Express.JS) with payment integrations such as PayPal and Stripe.',
                 'Utilized crucial design software skills to assist with projects.',
                 'Implemented and updated application modules under the direction of Senior Software Developers.',
                 'Effectively coded software changes and alterations based on specific design specifications.',
                 'Implemented reporting habits that helped maintaining strong communication habits among colleagues',
                 'Tested and accurately configured software', 
-                'Maintained high-functioning hardware.',
                 
             ]
         },
         {
             company: ' TRANSAX Ltd',
             role: 'Software Engineer Intern',
-            jobLocation: ' Rwanda',
+            jobLocation: ' On site ',
             jobDate: 'JANUARY 2020 - JUNE 2020',
             jobTasks: [
                 'Worked on a project called "ANDIKAHO", which had the purpose of helping designers and artists sell any item using their own brands online.',

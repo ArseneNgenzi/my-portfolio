@@ -4,6 +4,7 @@ import Image from "next/image";
 const skills = [
 	{ skill: "JavaScript" },
 	{ skill: "Next.js" },
+	{ skill: "Angular" },
 	{ skill: "React" },
 	{ skill: "Vue.js" },
 	{ skill: "Node.js" },
@@ -15,9 +16,7 @@ const skills = [
 	{ skill: "Tailwind CSS" },
 	{ skill: "Bootstrap" },
 	{ skill: "Git" },
-	{ skill: "Sass" },
 	{ skill: "Figma" },
-	// { skill: "" },
 ];
 
 const AboutSection = () => {

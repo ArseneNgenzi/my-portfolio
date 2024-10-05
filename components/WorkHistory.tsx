@@ -14,27 +14,28 @@ export interface WorkProps {
 
     const jobs = [
         
-        {
-            company: ' Q-LABS', 
-            role: 'Frontend Engineer consultant',
-            jobLocation: ' Remote',
-            jobDate: 'JULY 2023 - PRESENT',
-            jobTasks: [
-                'Developed custom software solutions for customers.',
-                'Improved the quality of the UI/UX, resulting in an increased end-user satisfaction.',
-                'Used best practices, industry trends, and technology to implement efficient and effective web applications.'
-            ]
-        },
+        
         {
             company: ' Eccellenza Technologies Ltd', 
             role: 'Frontend Developer',
             jobLocation: ' Remote',
             jobDate: 'JULY 2023 - PRESENT',
             jobTasks: [
-                'Developed and maintained features on Social Registry IS using Angular.',
+                "Developed and maintained features on MINALOC's Social Registry-IS using Angular.",
                 'Participated in code reviews, identified and fixed bugs, and maintained a clean and organized codebase.',
                 'Actively contributed to Agile development sprints, ensuring the delivery of high-quality software products on schedule.',
                 'Designed and implemented responsive user interfaces, improving the overall user experience.'
+            ]
+        },
+        {
+            company: ' Q-LABS', 
+            role: 'Frontend Engineer consultant',
+            jobLocation: ' Remote',
+            jobDate: 'JULY 2023 - FEB 2024',
+            jobTasks: [
+                'Developed custom software solutions for customers.',
+                'Improved the quality of the UI/UX, resulting in an increased end-user satisfaction.',
+                'Used best practices, industry trends, and technology to implement efficient and effective web applications.'
             ]
         },
         {

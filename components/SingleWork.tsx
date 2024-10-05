@@ -13,7 +13,7 @@ const SingleWork: NextPage<Props> = ( props) => {
 
 	return (
 		// <h1>Hello Single Work</h1>
-		<div className="border-solid border-sky-500 flex flex-col ">
+		<div className="border-solid border-sky-500 flex flex-col " key={work.company}>
             
 			<div className="">
 				<div className="md:flex font-black md:text-xl text-teal-600 pt-4 "> 
